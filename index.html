@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>BMI</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+  <section class="container">
+    <h1>IMC Calc</h1>
+    <p>To calculate the BMI, use the formula: weight(kg) / height(m) **</p>
+
+    <h1>Calcule seu peso</h1>
+    <form action="/" id="form" method="post">
+      <label for="peso">
+        <p>Type your weight in kilograms:</p>
+      </label>
+      <input type="text" id="peso" name="peso">
+      <label for="altura">
+        <p>Type yout height in meters</p>
+      </label>
+      <input type="text" id="altura" name="altura">
+      <button type="submit">Calculate</button>
+      <div id="resultado"></div>
+    </form>
+
+  </section>
+
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
